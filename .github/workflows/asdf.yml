@@ -5,6 +5,8 @@ defaults:
     shell: bash
     # working-directory: 
 
+on: push
+
 jobs:
   asdf:
     name: do asdf

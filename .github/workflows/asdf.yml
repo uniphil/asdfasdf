@@ -1,0 +1,14 @@
+name: asdfasdf
+
+defaults:
+  run:
+    shell: bash
+    # working-directory: 
+
+jobs:
+  asdf:
+    name: do asdf
+    runs-on: ubuntu-20.04
+    steps:
+      - id: asdf
+        run: echo "suuuup"
